@@ -1,0 +1,87 @@
+/* Navigation styles */
+.navigation {
+  background-color: #374eff;
+  color: white !important;
+  text-align: left;
+  padding: 10px;
+  margin-top: -5rem; /* Adjust the margin-top to move it up */
+  font-size: 10px;
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navigation li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Header styles with margin-top for the slideshow */
+.header {
+  background-color: #374eff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px; /* Adjust the margin-top to move it up */
+}
+
+/* Slideshow styles */
+.carousel {
+  max-width: 1200px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the slideshow horizontally */
+}
+
+.logo {
+  height: 30vh;
+  padding-top: 2em;
+}
+
+/* Section styles */
+.section {
+  padding: 20px;
+}
+
+.one {
+  height: 40vh;
+}
+
+/* Add the following styles to your App.css */
+
+.navigation ul {
+  display: flex;
+  align-items: center; /* Vertically align items in the center */
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 20px;
+ 
+}
+
+/* Adjust as needed for the desired spacing */
+
+/* Media query for smaller screens (e.g., mobile devices) */
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+  .navigation {
+    text-align: center;
+  }
+
+  .navigation ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navigation li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .header {
+    margin-top: 0; /* No margin on smaller screens */
+  }
+}
